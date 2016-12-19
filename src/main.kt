@@ -4,8 +4,8 @@ fun main(args: Array<String>) {
   println("Guess the number (1-100)")
   val number = ceil(random() * 100).toInt()
   val guesses = tryGuess(number, 0)
-  println("You win!")
-  println("Took $guesses guesses")
+println("You win!")
+println("Took $guesses guesses")
 }
 
 fun tryGuess(number: Int, guesses: Int): Int {
